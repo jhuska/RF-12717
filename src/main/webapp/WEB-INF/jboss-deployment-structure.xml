@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-deployment-structure xmlns="urn:jboss:deployment-structure:1.1">
+	<deployment>
+		<dependencies>
+
+			<module name="asm.asm" export="true" />
+			<module name="com.google.guava" export="true" />
+			<!-- <module name="com.oracle.ojdbc6" export="true" /> -->
+			<module name="javax.faces.api" export="true" /> 
+			<!-- <module name="com.sun.jsf-impl" export="true"/> -->
+			<module name="jline" export="true" />
+			<!-- <module name="net.sourceforge.cssparser" export="true" /> -->
+			<module name="org.antlr" export="true" />
+			<module name="org.apache.commons.beanutils" export="true" />
+			<module name="org.apache.commons.cli" export="true" />
+			<module name="org.apache.commons.codec" export="true" />
+			<module name="org.apache.commons.collections" export="true" />
+			<module name="org.apache.commons.io" export="true" />
+			<module name="org.apache.commons.lang" export="true" />
+			<module name="org.apache.commons.pool" export="true" />
+			<module name="org.apache.velocity" export="true" />
+			<module name="org.codehaus.jackson.jackson-core-asl" export="true" />
+			<module name="org.codehaus.jackson.jackson-mapper-asl" export="true" />
+			<module name="org.jacorb" export="true" />
+			<module name="org.joda.time" export="true" />
+			<module name="org.jboss.common-beans" export="true" />
+			<module name="org.jboss.common-core" export="true" />
+
+		</dependencies>
+
+
+	</deployment>
+
+
+</jboss-deployment-structure>
